@@ -214,7 +214,7 @@ button {
 
 .my-education-exp {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .my-experience,
@@ -222,6 +222,11 @@ button {
     max-width: 550px;
 }
 
+.downlode-cv-div {
+    text-align: center;
+    margin-top: 30px;
+
+}
 
 /* resopnsive  */
 
@@ -229,6 +234,7 @@ button {
 @media screen and (max-width:576px) {
     .header {
         background: none;
+        padding-bottom: 15px;
     }
 
     .developer-name {
@@ -254,10 +260,25 @@ button {
         font-size: 14px;
     }
 
+    .fa-handshake-simple {
+        display: none;
+    }
+
 
     #hire-me {
         padding: 5px 15px;
         font-size: 16px;
+    }
+
+    .primary-btn {
+        padding: 8px 24px;
+        font-size: 14px;
+    }
+
+    .contact-btn {
+        padding: 8px 24px;
+        font-size: 14px;
+        text-wrap: nowrap;
     }
 
     .header-content {
