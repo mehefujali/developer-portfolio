@@ -192,9 +192,10 @@ button {
 
 .what-i-do-text {
     max-width: 1000px;
+    padding: 0 35px;
     margin: auto;
     text-align: center;
-    margin: 50px 35px;
+    margin: 50px auto;
 }
 
 .skill-cards {
