@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.primary-color {
+    color: rgb(253, 110, 10);
+}
+
+a {
+    color: black;
+}
+
+button {
+    cursor: pointer;
+}
+
+.primary-bg-color {
+    background-color: rgb(253, 110, 10);
+}
+
+.primary-btn {
+    background-color: rgb(253, 110, 10);
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    text-wrap: nowrap;
+
+
+}
+
+.primary-font-size {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contenar {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.header {
+    background-color: rgb(255, 248, 243);
+
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: 3%;
+
+}
+
+.deacription {
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+    text-align: justify;
+}
+
+
+/* Nav bar  */
+
+
+.nav-bar {
+    justify-content: space-between;
+    margin: 0 230px;
+}
+
+.nav-items {
+    gap: 25px;
+    align-items: center;
+
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none white;
+}
+
+.header-content {
+    justify-content: space-between;
+    margin: 0 0 0 230px;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    align-items: center;
+}
+
+.header-text-pirt {
+    max-width: 600px;
+
+}
+
+#i-am {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+}
+
+#mary-hardy {
+    font-size: 5rem;
+    margin: 20px 0;
+}
+
+.header-btn-pirt {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.contact-btn {
+    padding: 10px 34px;
+    background-color: transparent;
+
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(253, 110, 10);
+    border: 2px solid rgb(253, 110, 10);
+
+    &:hover {
+        background-color: rgb(253, 110, 10);
+
+
+
+
+        color: white;
+        border: none;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .header {
+        background: none;
+    }
+
+    .responsive-btn {
+        padding: 6px 18px;
+        font-size: 18px;
+        border: none;
+        background-color: rgb(253, 110, 10);
+        color: white;
+    }
+
+    .nav-bar {
+        margin: 0 10px;
+        justify-content: space-around;
+
+    }
+
+    .nav-items {
+        gap: 10px;
+
+    }
+
+
+    #hire-me {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+
+    .header-content {
+        background: none;
+        margin: 0 20px;
+        flex-direction: column-reverse;
+
+    }
+
+    .img-pirt img {
+        width: 100%;
+    }
+
+    #i-am {
+        font-size: 22px;
+    }
+
+    #mary-hardy {
+        font-size: 35px;
+    }
+
+    .header-text-pirt {
+        margin: 0 20px;
+    }
+}
