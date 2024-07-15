@@ -17,6 +17,10 @@ button {
     cursor: pointer;
 }
 
+.text-cnter {
+    text-align: center;
+}
+
 .primary-bg-color {
     background-color: rgb(253, 110, 10);
 }
