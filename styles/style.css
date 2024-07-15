@@ -273,6 +273,7 @@ button {
     .pragraph {
         font-size: 16px;
         margin: 0 20px;
+        text-align: justify;
     }
 
     /* Skill  */
