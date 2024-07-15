@@ -140,6 +140,43 @@ button {
 }
 
 
+
+
+/* main section  */
+
+/* about me  */
+.about-me {
+    max-width: 1300px;
+    background-color: rgb(255, 248, 243);
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 130px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-me-contener {
+    max-width: 1100px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-des {
+    text-align: justify;
+}
+
+
+.contact-information {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* resopnsive  */
+
+
 @media screen and (max-width:576px) {
     .header {
         background: none;
@@ -191,5 +228,21 @@ button {
 
     .header-text-pirt {
         margin: 0 20px;
+    }
+
+    .contact-information {
+        flex-direction: column;
+        border: 1px solid pink;
+    }
+
+    .about-me {
+        padding: 13px;
+        border-radius: 0;
+        margin: 0;
+
+    }
+
+    .pragraph {
+        font-size: 16px;
     }
 }
