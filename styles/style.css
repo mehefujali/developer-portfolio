@@ -60,6 +60,7 @@ button {
     background-image: url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: 3%;
+    background-size: 5.5%;
 
 }
 
@@ -84,6 +85,11 @@ button {
 
 }
 
+.img-pirt img {
+    width: 100%;
+    height: 100%;
+}
+
 .nav-item {
     list-style: none;
 }
@@ -94,11 +100,12 @@ button {
 
 .header-content {
     justify-content: space-between;
-    margin: 0 0 0 230px;
+    margin: 0 0 0 11%;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     align-items: center;
+    background-size: 50%;
 }
 
 .header-text-pirt {
@@ -113,7 +120,7 @@ button {
 }
 
 #mary-hardy {
-    font-size: 5rem;
+    font-size: 5em;
     margin: 20px 0;
 }
 
@@ -187,11 +194,12 @@ button {
     max-width: 1000px;
     margin: auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px 35px;
 }
 
 .skill-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     max-width: 1440px;
     justify-content: space-around;
     margin: 0 auto;
@@ -215,6 +223,7 @@ button {
 .my-education-exp {
     display: flex;
     justify-content: space-between;
+    margin: 0 25px;
 }
 
 .my-experience,
@@ -229,6 +238,50 @@ button {
 }
 
 /* resopnsive  */
+
+@media (min-width:767px) and (max-width:992px) {
+    .header {
+        background: none;
+
+    }
+
+    .nav-bar {
+        margin: 0;
+    }
+
+    .header-content {
+        margin: 0;
+
+    }
+
+    #i-am {
+        font-size: 24px;
+    }
+
+    #mary-hardy {
+        font-size: 30px;
+    }
+
+    .img-pirt img {
+        width: 300px;
+    }
+
+    .skill-cards {
+
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+
+    }
+
+    .skill-card {
+        margin: auto;
+    }
+
+    .about-me {
+        padding: 10px;
+    }
+
+}
 
 
 @media screen and (max-width:576px) {
@@ -324,13 +377,17 @@ button {
 
     /* Skill  */
     .skill-cards {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+
+
         gap: 20px;
+        flex-wrap: wrap;
 
     }
 
+    .skill-card {
+        margin: auto;
+    }
 
     /* A summary of My Resume */
 
