@@ -204,6 +204,23 @@ button {
     border-radius: 5px;
 }
 
+/* A summary of My Resume  */
+.resume-section {
+    max-width: 1400px;
+    margin: 100px auto;
+
+
+}
+
+.my-education-exp {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.my-experience,
+.my-education {
+    max-width: 550px;
+}
 
 
 /* resopnsive  */
@@ -293,4 +310,11 @@ button {
 
     }
 
+
+    /* A summary of My Resume */
+
+    .my-education-exp {
+        flex-direction: column;
+        margin: 0 25px;
+    }
 }
