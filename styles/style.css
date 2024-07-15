@@ -210,23 +210,27 @@ button {
         background: none;
     }
 
+    .developer-name {
+        font-size: 25px;
+    }
+
     .responsive-btn {
         padding: 6px 18px;
-        font-size: 18px;
+        font-size: 16px;
         border: none;
         background-color: rgb(253, 110, 10);
         color: white;
     }
 
     .nav-bar {
-        margin: 0 10px;
+        margin: 0 20px;
         justify-content: space-around;
 
     }
 
     .nav-items {
         gap: 10px;
-
+        font-size: 14px;
     }
 
 
